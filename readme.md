@@ -1,1 +1,6 @@
-대림대학교 실습 QC2020폴더안에 들어있습니다.
+# 이주상
+
+## 9월 15일
+
+> Index Page 생성
+> Contents Section 추가 

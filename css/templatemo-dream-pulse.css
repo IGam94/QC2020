@@ -46,6 +46,15 @@ a {
 }
 .bgyellow{
   background-color: yellow;
+  box-shadow: gray 5px 5px 10px 0px;
+}
+.bgskyblue{
+  background-color: skyblue;
+  box-shadow: gray 5px 5px 10px 0px;
+}
+.bggray{
+  background-color: gray;
+  box-shadow: gray 5px 5px 10px 0px;
 }
 .bgwhite{
   background-color: white;
@@ -102,11 +111,46 @@ a {
   text-align: center;
   margin: 70px auto 90px;
 }
+.box1{
+  border: 1px solid #fff;
+  position: relative;
+  box-shadow: gray 5px 5px 10px 0px;
+  border-color: #cdcecf;
+  text-align: center;
+  line-height: 120px;
+  width:300px;
+  height: 120px;
+  margin-bottom: 50px;
+  
+  
+}
+.box2{
+  border: 1px solid #fff;
+  position: absolute;
+  border-color: #cdcecf;
+  text-align: center;
+  line-height: 110px;
+  top: 10px;
+  left: 10px;
+  width:290px;
+  height: 110px;
+  
+}
+.box1:hover > .box2 { visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.5s, opacity 1s ;
+   }
 
+.box2:hover{
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.5s, opacity 1s ;
+}
 .tm-double-border-1,
 .tm-double-border-2 {
   border: 1px solid #fff;
   position: relative;
+  
 }
 
 .tm-double-border-2 {
