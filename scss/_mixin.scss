@@ -1,0 +1,17 @@
+@mixin backcolor($color) {
+  background-color: $color;
+  box-shadow: gray 5px 5px 10px 0px;
+}
+
+.bgyellow{
+  @include backcolor(yellow)
+}
+.bgskyblue{
+  @include backcolor(skyblue)
+}
+.bggray{
+  @include backcolor(gray)
+}
+.bgwhite{
+  @include backcolor(white)
+}
