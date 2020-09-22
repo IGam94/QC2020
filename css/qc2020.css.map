@@ -1,10 +1,12 @@
 {
     "version": 3,
-    "mappings": "ACKA,AAAA,SAAS,CAAA;EAJP,gBAAgB,EAKG,MAAM;EAJzB,UAAU,EAAE,qBAAqB;CAKlC;;AACD,AAAA,UAAU,CAAA;EAPR,gBAAgB,EAQG,OAAO;EAP1B,UAAU,EAAE,qBAAqB;CAQlC;;AACD,AAAA,OAAO,CAAA;EAVL,gBAAgB,EAWG,IAAI;EAVvB,UAAU,EAAE,qBAAqB;CAWlC;;AACD,AAAA,QAAQ,CAAA;EAbN,gBAAgB,EAcG,KAAK;EAbxB,UAAU,EAAE,qBAAqB;CAclC",
+    "mappings": "AGAA,AAAA,SAAS,CAAA;EFCP,gBAAgB,ECIT,OAAc;EDHrB,UAAU,EAAE,qBAAqB;CEAlC;;AACD,AAAA,UAAU,CAAA;EFFR,gBAAgB,ECCX,OAAc;EDAnB,UAAU,EAAE,qBAAqB;CEGlC;;AACD,AAAA,OAAO,CAAA;EFLL,gBAAgB,ECMX,OAAgB;EDLrB,UAAU,EAAE,qBAAqB;CEMlC;;AACD,AAAA,QAAQ,CAAA;EFRN,gBAAgB,ECQV,KAAkB;EDPxB,UAAU,EAAE,qBAAqB;CESlC",
     "sources": [
         "../scss/qc2020.scss",
         "../scss/_mixin.scss",
-        "../scss/_color.scss"
+        "../scss/_color.scss",
+        "../scss/_main.scss",
+        "../scss/_variable.scss"
     ],
     "names": [],
     "file": "qc2020.css"

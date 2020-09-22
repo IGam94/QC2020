@@ -4,3 +4,6 @@
 
 > Index Page 생성
 > Contents Section 추가 
+
+## 9월 22일
+> Sass 활용

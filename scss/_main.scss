@@ -1,0 +1,12 @@
+.bgyellow{
+  @include backcolor($yellow)
+}
+.bgskyblue{
+  @include backcolor($blue)
+}
+.bggray{
+  @include backcolor($gray)
+}
+.bgwhite{
+  @include backcolor($white)
+}
