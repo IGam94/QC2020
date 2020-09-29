@@ -10,3 +10,21 @@
 .bgwhite{
   @include backcolor($white)
 }
+
+h1 {
+  @include font-scale($xxlarge);
+}
+h2 {
+  @include font-scale($xlarge);
+}
+h3 {
+  @include font-scale($large);
+}
+h4 {
+  @include font-scale($medium);
+}
+h5 {
+  @include font-scale($small);
+}
+
+

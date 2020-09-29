@@ -3,3 +3,6 @@
   box-shadow: gray 5px 5px 10px 0px;
 }
 
+@mixin font-scale($size) {
+  font-size: $size;
+}
