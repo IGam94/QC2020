@@ -1,6 +1,6 @@
-html {
-  font-size: 10px;
-}
+$root-font-size:10px;
+
+html {font-size: $root-font-size}
 
 $small:  1rem;
 $medium: 2rem;
