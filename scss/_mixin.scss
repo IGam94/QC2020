@@ -5,4 +5,5 @@
 
 @mixin font-scale($size) {
   font-size: $size;
+  font-family: $base-font-family;
 }
